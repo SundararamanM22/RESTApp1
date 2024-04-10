@@ -1,3 +1,3 @@
 FROM eclipse-temurin:17
-COPY target/RestApp1.Jar RestApp1.Jar
-CMD ["java", "-jar", "RestApp1.Jar]
+COPY target/RestApp1.jar RestApp1.jar
+CMD ["java", "-jar", "RestApp1.jar]
